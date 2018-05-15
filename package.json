@@ -1,0 +1,15 @@
+{
+  "name": "decode-chrome-cash-dumpfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mz": "^2.7.0"
+  }
+}

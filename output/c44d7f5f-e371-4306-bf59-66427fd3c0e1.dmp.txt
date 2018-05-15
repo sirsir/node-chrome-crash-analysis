@@ -1,0 +1,938 @@
+Operating system: Windows NT
+                  6.1.7601 18409
+CPU: x86
+     GenuineIntel family 6 model 45 stepping 2
+     4 CPUs
+
+Crash reason:  EXCEPTION_ACCESS_VIOLATION_READ
+Crash address: 0x4
+
+Thread 0 (crashed)
+ 0  chrome_child.dll + 0x2969d2f
+    eip = 0x12779d2f   esp = 0x0029c264   ebp = 0x0029c298   ebx = 0x00000000
+    esi = 0x0029d180   edi = 0x40000000   eax = 0x0029d018   ecx = 0x00000000
+    edx = 0x00000057   efl = 0x00010246
+    Found by: given as instruction pointer in context
+ 1  chrome_child.dll + 0x2969bc6
+    eip = 0x12779bc7   esp = 0x0029c2a0   ebp = 0x0029cf40
+    Found by: previous frame's frame pointer
+ 2  chrome_child.dll + 0x18d7b7
+    eip = 0x0ff9d7b8   esp = 0x0029cf48   ebp = 0x0029cf8c
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x18d45a
+    eip = 0x0ff9d45b   esp = 0x0029cf94   ebp = 0x0029cfd8
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x18ae70
+    eip = 0x0ff9ae71   esp = 0x0029cfe0   ebp = 0x0029dff0
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x18abc5
+    eip = 0x0ff9abc6   esp = 0x0029dff8   ebp = 0x0029e008
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x379067
+    eip = 0x10189068   esp = 0x0029e010   ebp = 0x0029e0cc
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x3782b9
+    eip = 0x101882ba   esp = 0x0029e0d4   ebp = 0x0029e0f8
+    Found by: previous frame's frame pointer
+ 8  chrome_child.dll + 0x35b86f
+    eip = 0x1016b870   esp = 0x0029e100   ebp = 0x0029e138
+    Found by: previous frame's frame pointer
+ 9  chrome_child.dll + 0x247642
+    eip = 0x10057643   esp = 0x0029e140   ebp = 0x0029e184
+    Found by: previous frame's frame pointer
+10  chrome_child.dll + 0x364ef7
+    eip = 0x10174ef8   esp = 0x0029e18c   ebp = 0x0029e608
+    Found by: previous frame's frame pointer
+11  chrome_child.dll + 0x36425b
+    eip = 0x1017425c   esp = 0x0029e610   ebp = 0x0029e69c
+    Found by: previous frame's frame pointer
+12  chrome_child.dll + 0x3631a5
+    eip = 0x101731a6   esp = 0x0029e6a4   ebp = 0x0029e70c
+    Found by: previous frame's frame pointer
+13  chrome_child.dll + 0x163afb
+    eip = 0x0ff73afc   esp = 0x0029e714   ebp = 0x0029e734
+    Found by: previous frame's frame pointer
+14  chrome_child.dll + 0x1639d2
+    eip = 0x0ff739d3   esp = 0x0029e73c   ebp = 0x0029e7a0
+    Found by: previous frame's frame pointer
+15  chrome_child.dll + 0x163431
+    eip = 0x0ff73432   esp = 0x0029e7a8   ebp = 0x0029e81c
+    Found by: previous frame's frame pointer
+16  chrome_child.dll + 0x16314e
+    eip = 0x0ff7314f   esp = 0x0029e824   ebp = 0x0029e854
+    Found by: previous frame's frame pointer
+17  chrome_child.dll + 0x162bf5
+    eip = 0x0ff72bf6   esp = 0x0029e85c   ebp = 0x0029e890
+    Found by: previous frame's frame pointer
+18  chrome_child.dll + 0x1619e8
+    eip = 0x0ff719e9   esp = 0x0029e898   ebp = 0x0029e8dc
+    Found by: previous frame's frame pointer
+19  chrome_child.dll + 0x35587f
+    eip = 0x10165880   esp = 0x0029e8e4   ebp = 0x0029e95c
+    Found by: previous frame's frame pointer
+20  chrome_child.dll + 0x355452
+    eip = 0x10165453   esp = 0x0029e964   ebp = 0x0029e9bc
+    Found by: previous frame's frame pointer
+21  chrome_child.dll + 0x380bbc
+    eip = 0x10190bbd   esp = 0x0029e9c4   ebp = 0x0029e9d0
+    Found by: previous frame's frame pointer
+22  chrome_child.dll + 0x37de9c
+    eip = 0x1018de9d   esp = 0x0029e9d8   ebp = 0x0029e9e4
+    Found by: previous frame's frame pointer
+23  chrome_child.dll + 0x37dd42
+    eip = 0x1018dd43   esp = 0x0029e9ec   ebp = 0x0029ea08
+    Found by: previous frame's frame pointer
+24  chrome_child.dll + 0x7098fe
+    eip = 0x105198ff   esp = 0x0029ea10   ebp = 0x0029ea18
+    Found by: previous frame's frame pointer
+25  chrome_child.dll + 0x6f4251
+    eip = 0x10504252   esp = 0x0029ea20   ebp = 0x0029ea2c
+    Found by: previous frame's frame pointer
+26  chrome_child.dll + 0x37dc76
+    eip = 0x1018dc77   esp = 0x0029ea34   ebp = 0x0029ea50
+    Found by: previous frame's frame pointer
+27  chrome_child.dll + 0x335d34
+    eip = 0x10145d35   esp = 0x0029ea58   ebp = 0x0029ea8c
+    Found by: previous frame's frame pointer
+28  chrome_child.dll + 0x335a35
+    eip = 0x10145a36   esp = 0x0029ea94   ebp = 0x0029ea9c
+    Found by: previous frame's frame pointer
+29  chrome_child.dll + 0x334e12
+    eip = 0x10144e13   esp = 0x0029eaa4   ebp = 0x0029eae0
+    Found by: previous frame's frame pointer
+30  chrome_child.dll + 0x333add
+    eip = 0x10143ade   esp = 0x0029eae8   ebp = 0x0029eb28
+    Found by: previous frame's frame pointer
+31  chrome_child.dll + 0x3338d6
+    eip = 0x101438d7   esp = 0x0029eb30   ebp = 0x0029ec04
+    Found by: previous frame's frame pointer
+32  chrome_child.dll + 0x3334be
+    eip = 0x101434bf   esp = 0x0029ec0c   ebp = 0x0029ecf4
+    Found by: previous frame's frame pointer
+33  chrome_child.dll + 0x332ebe
+    eip = 0x10142ebf   esp = 0x0029ecfc   ebp = 0x0029ed08
+    Found by: previous frame's frame pointer
+34  chrome_child.dll + 0x333233
+    eip = 0x10143234   esp = 0x0029ed10   ebp = 0x0029ed1c
+    Found by: previous frame's frame pointer
+35  chrome_child.dll + 0x25b862
+    eip = 0x1006b863   esp = 0x0029ed24   ebp = 0x0029f100
+    Found by: previous frame's frame pointer
+36  chrome_child.dll + 0x25b3b2
+    eip = 0x1006b3b3   esp = 0x0029f108   ebp = 0x0029f110
+    Found by: previous frame's frame pointer
+37  chrome_child.dll + 0xb7cbd
+    eip = 0x0fec7cbe   esp = 0x0029f118   ebp = 0x0029f164
+    Found by: previous frame's frame pointer
+38  chrome_child.dll + 0xb783d
+    eip = 0x0fec783e   esp = 0x0029f16c   ebp = 0x0029f1d4
+    Found by: previous frame's frame pointer
+39  chrome_child.dll + 0xb68b3
+    eip = 0x0fec68b4   esp = 0x0029f1dc   ebp = 0x0029f278
+    Found by: previous frame's frame pointer
+40  chrome_child.dll + 0xb6754
+    eip = 0x0fec6755   esp = 0x0029f280   ebp = 0x0029f2a4
+    Found by: previous frame's frame pointer
+41  chrome_child.dll + 0xb670a
+    eip = 0x0fec670b   esp = 0x0029f2ac   ebp = 0x0029f2ac
+    Found by: previous frame's frame pointer
+42  chrome_child.dll + 0xb66de
+    eip = 0x0fec66df   esp = 0x0029f2b4   ebp = 0x0029f2b8
+    Found by: previous frame's frame pointer
+43  chrome_child.dll + 0xb66be
+    eip = 0x0fec66bf   esp = 0x0029f2c0   ebp = 0x0029f2c8
+    Found by: previous frame's frame pointer
+44  chrome_child.dll + 0xb66aa
+    eip = 0x0fec66ab   esp = 0x0029f2d0   ebp = 0x0029f2dc
+    Found by: previous frame's frame pointer
+45  chrome_child.dll + 0xb660a
+    eip = 0x0fec660b   esp = 0x0029f2e4   ebp = 0x0029f310
+    Found by: previous frame's frame pointer
+46  chrome_child.dll + 0xb6573
+    eip = 0x0fec6574   esp = 0x0029f318   ebp = 0x0029f334
+    Found by: previous frame's frame pointer
+47  chrome_child.dll + 0x4e3c6
+    eip = 0x0fe5e3c7   esp = 0x0029f33c   ebp = 0x0029f3a8
+    Found by: previous frame's frame pointer
+48  chrome_child.dll + 0x7421f
+    eip = 0x0fe84220   esp = 0x0029f3b0   ebp = 0x0029f4d4
+    Found by: previous frame's frame pointer
+49  chrome_child.dll + 0x73009
+    eip = 0x0fe8300a   esp = 0x0029f4dc   ebp = 0x0029f588
+    Found by: previous frame's frame pointer
+50  chrome_child.dll + 0x72e70
+    eip = 0x0fe82e71   esp = 0x0029f590   ebp = 0x0029f5a4
+    Found by: previous frame's frame pointer
+51  chrome_child.dll + 0x4e3c6
+    eip = 0x0fe5e3c7   esp = 0x0029f5ac   ebp = 0x0029f618
+    Found by: previous frame's frame pointer
+52  chrome_child.dll + 0x72cd5
+    eip = 0x0fe82cd6   esp = 0x0029f620   ebp = 0x0029f68c
+    Found by: previous frame's frame pointer
+53  chrome_child.dll + 0x72c86
+    eip = 0x0fe82c87   esp = 0x0029f694   ebp = 0x0029f6a4
+    Found by: previous frame's frame pointer
+54  chrome_child.dll + 0x4e3c6
+    eip = 0x0fe5e3c7   esp = 0x0029f6ac   ebp = 0x0029f714
+    Found by: previous frame's frame pointer
+55  chrome_child.dll + 0x4e322
+    eip = 0x0fe5e323   esp = 0x0029f71c   ebp = 0x0029f724
+    Found by: previous frame's frame pointer
+56  chrome_child.dll + 0x4de85
+    eip = 0x0fe5de86   esp = 0x0029f72c   ebp = 0x0029f7a8
+    Found by: previous frame's frame pointer
+57  chrome_child.dll + 0x4dcaa
+    eip = 0x0fe5dcab   esp = 0x0029f7b0   ebp = 0x0029f7c8
+    Found by: previous frame's frame pointer
+58  chrome_child.dll + 0x45a1d
+    eip = 0x0fe55a1e   esp = 0x0029f7d0   ebp = 0x0029f880
+    Found by: previous frame's frame pointer
+59  chrome_child.dll + 0x45926
+    eip = 0x0fe55927   esp = 0x0029f888   ebp = 0x0029f89c
+    Found by: previous frame's frame pointer
+60  chrome_child.dll + 0x4587e
+    eip = 0x0fe5587f   esp = 0x0029f8a4   ebp = 0x0029f8ac
+    Found by: previous frame's frame pointer
+61  chrome_child.dll + 0x456bd
+    eip = 0x0fe556be   esp = 0x0029f8b4   ebp = 0x0029f8c0
+    Found by: previous frame's frame pointer
+62  chrome_child.dll + 0x34097
+    eip = 0x0fe44098   esp = 0x0029f8c8   ebp = 0x0029f96c
+    Found by: previous frame's frame pointer
+63  chrome_child.dll + 0x33e54
+    eip = 0x0fe43e55   esp = 0x0029f974   ebp = 0x0029fa40
+    Found by: previous frame's frame pointer
+64  chrome_child.dll + 0x2e489
+    eip = 0x0fe3e48a   esp = 0x0029fa48   ebp = 0x0029fa98
+    Found by: previous frame's frame pointer
+65  chrome_child.dll + 0x4540
+    eip = 0x0fe14541   esp = 0x0029faa0   ebp = 0x0029fba4
+    Found by: previous frame's frame pointer
+66  chrome_child.dll + 0x421d
+    eip = 0x0fe1421e   esp = 0x0029fbac   ebp = 0x0029fbe4
+    Found by: previous frame's frame pointer
+67  chrome_child.dll + 0x18f6
+    eip = 0x0fe118f7   esp = 0x0029fbec   ebp = 0x0029fc48
+    Found by: previous frame's frame pointer
+68  chrome.exe + 0x302b
+    eip = 0x00b1302c   esp = 0x0029fc50   ebp = 0x0029fcd4
+    Found by: previous frame's frame pointer
+69  chrome.exe + 0x1464
+    eip = 0x00b11465   esp = 0x0029fcdc   ebp = 0x0029fe3c
+    Found by: previous frame's frame pointer
+70  chrome.exe + 0xbe5c7
+    eip = 0x00bce5c8   esp = 0x0029fe44   ebp = 0x0029fe88
+    Found by: previous frame's frame pointer
+71  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x0029fe90   ebp = 0x0029fe94
+    Found by: previous frame's frame pointer
+72  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x0029fe9c   ebp = 0x0029fed4
+    Found by: previous frame's frame pointer
+73  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x0029fedc   ebp = 0x0029feec
+    Found by: previous frame's frame pointer
+
+Thread 1
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x037efb94   ebp = 0x037efc00   ebx = 0x00000000
+    esi = 0x000001ec   edi = 0x00000000   eax = 0x0283bd20   ecx = 0x0000000d
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x037efc08   ebp = 0x037efc18
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x037efc20   ebp = 0x037efc2c
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x45e29
+    eip = 0x0fe55e2a   esp = 0x037efc34   ebp = 0x037efc64
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4591d
+    eip = 0x0fe5591e   esp = 0x037efc6c   ebp = 0x037efc80
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x4587e
+    eip = 0x0fe5587f   esp = 0x037efc88   ebp = 0x037efc90
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x456bd
+    eip = 0x0fe556be   esp = 0x037efc98   ebp = 0x037efca4
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x4568a
+    eip = 0x0fe5568b   esp = 0x037efcac   ebp = 0x037efcac
+    Found by: previous frame's frame pointer
+ 8  chrome_child.dll + 0x45502
+    eip = 0x0fe55503   esp = 0x037efcb4   ebp = 0x037efcec
+    Found by: previous frame's frame pointer
+ 9  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x037efcf4   ebp = 0x037efd10
+    Found by: previous frame's frame pointer
+10  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x037efd18   ebp = 0x037efd1c
+    Found by: previous frame's frame pointer
+11  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x037efd24   ebp = 0x037efd5c
+    Found by: previous frame's frame pointer
+12  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x037efd64   ebp = 0x037efd74
+    Found by: previous frame's frame pointer
+
+Thread 2
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x0367f620   ebp = 0x0367f68c   ebx = 0x00000000
+    esi = 0x000001e0   edi = 0x0367f668   eax = 0x0283e000   ecx = 0x0283dfe8
+    edx = 0x00001000   efl = 0x00000297
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x0367f694   ebp = 0x0367f6a4
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x0367f6ac   ebp = 0x0367f6b8
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x10d7ed4
+    eip = 0x10ee7ed5   esp = 0x0367f6c0   ebp = 0x0367f704
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4669a
+    eip = 0x0fe5669b   esp = 0x0367f70c   ebp = 0x0367f74c
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x465f1
+    eip = 0x0fe565f2   esp = 0x0367f754   ebp = 0x0367f770
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x46060
+    eip = 0x0fe56061   esp = 0x0367f778   ebp = 0x0367f79c
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x0367f7a4   ebp = 0x0367f7c0
+    Found by: previous frame's frame pointer
+ 8  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x0367f7c8   ebp = 0x0367f7cc
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x0367f7d4   ebp = 0x0367f80c
+    Found by: previous frame's frame pointer
+10  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x0367f814   ebp = 0x0367f824
+    Found by: previous frame's frame pointer
+
+Thread 3
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x0398f908   ebp = 0x0398f974   ebx = 0x00000000
+    esi = 0x000001f0   edi = 0x0398f950   eax = 0x0283f000   ecx = 0x0283efe8
+    edx = 0x00001000   efl = 0x00000297
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x0398f97c   ebp = 0x0398f98c
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x0398f994   ebp = 0x0398f9a0
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x10d7ed4
+    eip = 0x10ee7ed5   esp = 0x0398f9a8   ebp = 0x0398f9ec
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4669a
+    eip = 0x0fe5669b   esp = 0x0398f9f4   ebp = 0x0398fa34
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x465f1
+    eip = 0x0fe565f2   esp = 0x0398fa3c   ebp = 0x0398fa5c
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x46060
+    eip = 0x0fe56061   esp = 0x0398fa64   ebp = 0x0398fa88
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x0398fa90   ebp = 0x0398faac
+    Found by: previous frame's frame pointer
+ 8  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x0398fab4   ebp = 0x0398fab8
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x0398fac0   ebp = 0x0398faf8
+    Found by: previous frame's frame pointer
+10  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x0398fb00   ebp = 0x0398fb10
+    Found by: previous frame's frame pointer
+
+Thread 4
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x03bef778   ebp = 0x03bef7e4   ebx = 0x00000000
+    esi = 0x000001fc   edi = 0x03bef7c0   eax = 0x03bef708   ecx = 0x27c875c3
+    edx = 0x00000011   efl = 0x00000297
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x03bef7ec   ebp = 0x03bef7fc
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x03bef804   ebp = 0x03bef810
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x10d7ed4
+    eip = 0x10ee7ed5   esp = 0x03bef818   ebp = 0x03bef85c
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4669a
+    eip = 0x0fe5669b   esp = 0x03bef864   ebp = 0x03bef8a4
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x465f1
+    eip = 0x0fe565f2   esp = 0x03bef8ac   ebp = 0x03bef8cc
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x461ca
+    eip = 0x0fe561cb   esp = 0x03bef8d4   ebp = 0x03bef8f8
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x03bef900   ebp = 0x03bef91c
+    Found by: previous frame's frame pointer
+ 8  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x03bef924   ebp = 0x03bef928
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x03bef930   ebp = 0x03bef968
+    Found by: previous frame's frame pointer
+10  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x03bef970   ebp = 0x03bef980
+    Found by: previous frame's frame pointer
+
+Thread 5
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x03e1f758   ebp = 0x03e1f7c4   ebx = 0x00000000
+    esi = 0x0000020c   edi = 0x03e1f7a0   eax = 0x7fffffff   ecx = 0x0283a040
+    edx = 0x00000000   efl = 0x00000297
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x03e1f7cc   ebp = 0x03e1f7dc
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x03e1f7e4   ebp = 0x03e1f7f0
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x10d7ed4
+    eip = 0x10ee7ed5   esp = 0x03e1f7f8   ebp = 0x03e1f83c
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4669a
+    eip = 0x0fe5669b   esp = 0x03e1f844   ebp = 0x03e1f884
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x465f1
+    eip = 0x0fe565f2   esp = 0x03e1f88c   ebp = 0x03e1f8a8
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x46060
+    eip = 0x0fe56061   esp = 0x03e1f8b0   ebp = 0x03e1f8d4
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x03e1f8dc   ebp = 0x03e1f8f8
+    Found by: previous frame's frame pointer
+ 8  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x03e1f900   ebp = 0x03e1f904
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x03e1f90c   ebp = 0x03e1f944
+    Found by: previous frame's frame pointer
+10  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x03e1f94c   ebp = 0x03e1f95c
+    Found by: previous frame's frame pointer
+
+Thread 6
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x03a9fa58   ebp = 0x03a9fa84   ebx = 0x03a9fab4
+    esi = 0x0283a8f0   edi = 0x00000000   eax = 0x00000000   ecx = 0x0283a8f0
+    edx = 0x0000004d   efl = 0x00000246
+    Found by: given as instruction pointer in context
+ 1  chrome_child.dll + 0x48265
+    eip = 0x0fe58266   esp = 0x03a9fa8c   ebp = 0x03a9fad0
+    Found by: previous frame's frame pointer
+ 2  chrome_child.dll + 0x481ac
+    eip = 0x0fe581ad   esp = 0x03a9fad8   ebp = 0x03a9fb10
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x4807b
+    eip = 0x0fe5807c   esp = 0x03a9fb18   ebp = 0x03a9fb40
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4587e
+    eip = 0x0fe5587f   esp = 0x03a9fb48   ebp = 0x03a9fb50
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x456bd
+    eip = 0x0fe556be   esp = 0x03a9fb58   ebp = 0x03a9fb64
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x4568a
+    eip = 0x0fe5568b   esp = 0x03a9fb6c   ebp = 0x03a9fb6c
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x45502
+    eip = 0x0fe55503   esp = 0x03a9fb74   ebp = 0x03a9fbac
+    Found by: previous frame's frame pointer
+ 8  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x03a9fbb4   ebp = 0x03a9fbd0
+    Found by: previous frame's frame pointer
+ 9  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x03a9fbd8   ebp = 0x03a9fbdc
+    Found by: previous frame's frame pointer
+10  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x03a9fbe4   ebp = 0x03a9fc1c
+    Found by: previous frame's frame pointer
+11  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x03a9fc24   ebp = 0x03a9fc34
+    Found by: previous frame's frame pointer
+
+Thread 7
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x03f7f620   ebp = 0x03f7f7b4   ebx = 0x76f0fe8c
+    esi = 0x00d5ad00   edi = 0x00000000   eax = 0x03f7f764   ecx = 0x00000000
+    edx = 0x76f0fd0d   efl = 0x00000293
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x03f7f7bc   ebp = 0x03f7f7c0
+    Found by: previous frame's frame pointer
+ 2  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x03f7f7c8   ebp = 0x03f7f800
+    Found by: previous frame's frame pointer
+ 3  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x03f7f808   ebp = 0x03f7f818
+    Found by: previous frame's frame pointer
+
+Thread 8
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x03d0fdc0   ebp = 0x03d0ff20   ebx = 0x00d5af38
+    esi = 0x00000002   edi = 0x00d5af38   eax = 0x00000000   ecx = 0x00000003
+    edx = 0x00000000   efl = 0x00000206
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x03d0ff28   ebp = 0x03d0ff2c
+    Found by: previous frame's frame pointer
+ 2  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x03d0ff34   ebp = 0x03d0ff6c
+    Found by: previous frame's frame pointer
+ 3  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x03d0ff74   ebp = 0x03d0ff84
+    Found by: previous frame's frame pointer
+
+Thread 9
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x040cf96c   ebp = 0x040cf9d8   ebx = 0x00000000
+    esi = 0x00000270   edi = 0x00000000   eax = 0x02872640   ecx = 0x02843d14
+    edx = 0x0286c2f0   efl = 0x00000246
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x040cf9e0   ebp = 0x040cf9f0
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x040cf9f8   ebp = 0x040cfa04
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x45e29
+    eip = 0x0fe55e2a   esp = 0x040cfa0c   ebp = 0x040cfa3c
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4591d
+    eip = 0x0fe5591e   esp = 0x040cfa44   ebp = 0x040cfa58
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x4587e
+    eip = 0x0fe5587f   esp = 0x040cfa60   ebp = 0x040cfa68
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x456bd
+    eip = 0x0fe556be   esp = 0x040cfa70   ebp = 0x040cfa7c
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x4568a
+    eip = 0x0fe5568b   esp = 0x040cfa84   ebp = 0x040cfa84
+    Found by: previous frame's frame pointer
+ 8  chrome_child.dll + 0x45502
+    eip = 0x0fe55503   esp = 0x040cfa8c   ebp = 0x040cfac4
+    Found by: previous frame's frame pointer
+ 9  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x040cfacc   ebp = 0x040cfae8
+    Found by: previous frame's frame pointer
+10  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x040cfaf0   ebp = 0x040cfaf4
+    Found by: previous frame's frame pointer
+11  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x040cfafc   ebp = 0x040cfb34
+    Found by: previous frame's frame pointer
+12  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x040cfb3c   ebp = 0x040cfb4c
+    Found by: previous frame's frame pointer
+
+Thread 10
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x047cf914   ebp = 0x047cf980   ebx = 0x00000000
+    esi = 0x00000294   edi = 0x00000000   eax = 0x028a7fe8   ecx = 0x047cf5d0
+    edx = 0x047cf4e8   efl = 0x00000246
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x047cf988   ebp = 0x047cf998
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x047cf9a0   ebp = 0x047cf9ac
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x45e29
+    eip = 0x0fe55e2a   esp = 0x047cf9b4   ebp = 0x047cf9e4
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4591d
+    eip = 0x0fe5591e   esp = 0x047cf9ec   ebp = 0x047cfa00
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x4587e
+    eip = 0x0fe5587f   esp = 0x047cfa08   ebp = 0x047cfa10
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x456bd
+    eip = 0x0fe556be   esp = 0x047cfa18   ebp = 0x047cfa24
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x4568a
+    eip = 0x0fe5568b   esp = 0x047cfa2c   ebp = 0x047cfa2c
+    Found by: previous frame's frame pointer
+ 8  chrome_child.dll + 0x45502
+    eip = 0x0fe55503   esp = 0x047cfa34   ebp = 0x047cfa6c
+    Found by: previous frame's frame pointer
+ 9  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x047cfa74   ebp = 0x047cfa90
+    Found by: previous frame's frame pointer
+10  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x047cfa98   ebp = 0x047cfa9c
+    Found by: previous frame's frame pointer
+11  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x047cfaa4   ebp = 0x047cfadc
+    Found by: previous frame's frame pointer
+12  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x047cfae4   ebp = 0x047cfaf4
+    Found by: previous frame's frame pointer
+
+Thread 11
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x04d1fe00   ebp = 0x04d1fe6c   ebx = 0x00000000
+    esi = 0x000002c8   edi = 0x00000000   eax = 0x102e3e20   ecx = 0x0510ebb0
+    edx = 0x00000001   efl = 0x00000246
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x04d1fe74   ebp = 0x04d1fe84
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x04d1fe8c   ebp = 0x04d1fe98
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x45e29
+    eip = 0x0fe55e2a   esp = 0x04d1fea0   ebp = 0x04d1fed0
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4591d
+    eip = 0x0fe5591e   esp = 0x04d1fed8   ebp = 0x04d1feec
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x4587e
+    eip = 0x0fe5587f   esp = 0x04d1fef4   ebp = 0x04d1fefc
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x456bd
+    eip = 0x0fe556be   esp = 0x04d1ff04   ebp = 0x04d1ff10
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x4568a
+    eip = 0x0fe5568b   esp = 0x04d1ff18   ebp = 0x04d1ff18
+    Found by: previous frame's frame pointer
+ 8  chrome_child.dll + 0x45502
+    eip = 0x0fe55503   esp = 0x04d1ff20   ebp = 0x04d1ff58
+    Found by: previous frame's frame pointer
+ 9  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x04d1ff60   ebp = 0x04d1ff7c
+    Found by: previous frame's frame pointer
+10  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x04d1ff84   ebp = 0x04d1ff88
+    Found by: previous frame's frame pointer
+11  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x04d1ff90   ebp = 0x04d1ffc8
+    Found by: previous frame's frame pointer
+12  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x04d1ffd0   ebp = 0x04d1ffe0
+    Found by: previous frame's frame pointer
+
+Thread 12
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x04f1f7b8   ebp = 0x04f1f810   ebx = 0x04f1f81c
+    esi = 0x00000000   edi = 0x00000000   eax = 0x131a5574   ecx = 0x051c1638
+    edx = 0x0286ba68   efl = 0x00000247
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x320a5
+    eip = 0x763920a6   esp = 0x04f1f818   ebp = 0x04f1f840
+    Found by: previous frame's frame pointer
+ 2  chrome_child.dll + 0xbd5d5
+    eip = 0x0fecd5d6   esp = 0x04f1f848   ebp = 0x04f1f878
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0xbd3fe
+    eip = 0x0fecd3ff   esp = 0x04f1f880   ebp = 0x04f1f890
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x20c3bed
+    eip = 0x11ed3bee   esp = 0x04f1f898   ebp = 0x04f1f8a0
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0xbd360
+    eip = 0x0fecd361   esp = 0x04f1f8a8   ebp = 0x04f1f8f4
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x04f1f8fc   ebp = 0x04f1f918
+    Found by: previous frame's frame pointer
+ 7  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x04f1f920   ebp = 0x04f1f924
+    Found by: previous frame's frame pointer
+ 8  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x04f1f92c   ebp = 0x04f1f964
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x04f1f96c   ebp = 0x04f1f97c
+    Found by: previous frame's frame pointer
+
+Thread 13
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x050bfa78   ebp = 0x050bfad0   ebx = 0x050bfae4
+    esi = 0x00000000   edi = 0x00000000   eax = 0x051c4028   ecx = 0x051c40ac
+    edx = 0x051c4088   efl = 0x00000247
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x320a5
+    eip = 0x763920a6   esp = 0x050bfad8   ebp = 0x050bfb08
+    Found by: previous frame's frame pointer
+ 2  chrome_child.dll + 0xbd5d5
+    eip = 0x0fecd5d6   esp = 0x050bfb10   ebp = 0x050bfb40
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0xbd3fe
+    eip = 0x0fecd3ff   esp = 0x050bfb48   ebp = 0x050bfb58
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x20c3bed
+    eip = 0x11ed3bee   esp = 0x050bfb60   ebp = 0x050bfb68
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0xbd360
+    eip = 0x0fecd361   esp = 0x050bfb70   ebp = 0x050bfbbc
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x050bfbc4   ebp = 0x050bfbe0
+    Found by: previous frame's frame pointer
+ 7  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x050bfbe8   ebp = 0x050bfbec
+    Found by: previous frame's frame pointer
+ 8  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x050bfbf4   ebp = 0x050bfc2c
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x050bfc34   ebp = 0x050bfc44
+    Found by: previous frame's frame pointer
+
+Thread 14
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x04b8f798   ebp = 0x04b8f7f0   ebx = 0x04b8f7fc
+    esi = 0x00000000   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000800
+    edx = 0x04b8f000   efl = 0x00000247
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x320a5
+    eip = 0x763920a6   esp = 0x04b8f7f8   ebp = 0x04b8f820
+    Found by: previous frame's frame pointer
+ 2  chrome_child.dll + 0xbd5d5
+    eip = 0x0fecd5d6   esp = 0x04b8f828   ebp = 0x04b8f858
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0xbd3fe
+    eip = 0x0fecd3ff   esp = 0x04b8f860   ebp = 0x04b8f870
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x20c3bed
+    eip = 0x11ed3bee   esp = 0x04b8f878   ebp = 0x04b8f880
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0xbd360
+    eip = 0x0fecd361   esp = 0x04b8f888   ebp = 0x04b8f8d4
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x04b8f8dc   ebp = 0x04b8f8f8
+    Found by: previous frame's frame pointer
+ 7  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x04b8f900   ebp = 0x04b8f904
+    Found by: previous frame's frame pointer
+ 8  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x04b8f90c   ebp = 0x04b8f944
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x04b8f94c   ebp = 0x04b8f95c
+    Found by: previous frame's frame pointer
+
+Thread 15
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x06b7f690   ebp = 0x06b7f6fc   ebx = 0x00000000
+    esi = 0x00000300   edi = 0x06b7f6d8   eax = 0x06b7f6b8   ecx = 0x27c875c3
+    edx = 0x0519d0e0   efl = 0x00000297
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x06b7f704   ebp = 0x06b7f714
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x06b7f71c   ebp = 0x06b7f728
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x10d7ed4
+    eip = 0x10ee7ed5   esp = 0x06b7f730   ebp = 0x06b7f774
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4669a
+    eip = 0x0fe5669b   esp = 0x06b7f77c   ebp = 0x06b7f7bc
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x465f1
+    eip = 0x0fe565f2   esp = 0x06b7f7c4   ebp = 0x06b7f7e0
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x461ca
+    eip = 0x0fe561cb   esp = 0x06b7f7e8   ebp = 0x06b7f80c
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x06b7f814   ebp = 0x06b7f830
+    Found by: previous frame's frame pointer
+ 8  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x06b7f838   ebp = 0x06b7f83c
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x06b7f844   ebp = 0x06b7f87c
+    Found by: previous frame's frame pointer
+10  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x06b7f884   ebp = 0x06b7f894
+    Found by: previous frame's frame pointer
+
+Thread 16
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x06d8fb04   ebp = 0x06d8fb70   ebx = 0x00000000
+    esi = 0x0000033c   edi = 0x00000000   eax = 0x0510b5b4   ecx = 0x06d8fb84
+    edx = 0x028420b0   efl = 0x00000246
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x06d8fb78   ebp = 0x06d8fb88
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x06d8fb90   ebp = 0x06d8fb9c
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x45e29
+    eip = 0x0fe55e2a   esp = 0x06d8fba4   ebp = 0x06d8fbd4
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4591d
+    eip = 0x0fe5591e   esp = 0x06d8fbdc   ebp = 0x06d8fbf0
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x4587e
+    eip = 0x0fe5587f   esp = 0x06d8fbf8   ebp = 0x06d8fc00
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x456bd
+    eip = 0x0fe556be   esp = 0x06d8fc08   ebp = 0x06d8fc14
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x4568a
+    eip = 0x0fe5568b   esp = 0x06d8fc1c   ebp = 0x06d8fc1c
+    Found by: previous frame's frame pointer
+ 8  chrome_child.dll + 0x45502
+    eip = 0x0fe55503   esp = 0x06d8fc24   ebp = 0x06d8fc5c
+    Found by: previous frame's frame pointer
+ 9  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x06d8fc64   ebp = 0x06d8fc80
+    Found by: previous frame's frame pointer
+10  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x06d8fc88   ebp = 0x06d8fc8c
+    Found by: previous frame's frame pointer
+11  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x06d8fc94   ebp = 0x06d8fccc
+    Found by: previous frame's frame pointer
+12  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x06d8fcd4   ebp = 0x06d8fce4
+    Found by: previous frame's frame pointer
+
+Thread 17
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x08e5f680   ebp = 0x08e5f6ec   ebx = 0x00000000
+    esi = 0x00000360   edi = 0x08e5f6c8   eax = 0x08e5f610   ecx = 0x27c875c3
+    edx = 0x00000011   efl = 0x00000297
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x08e5f6f4   ebp = 0x08e5f704
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x08e5f70c   ebp = 0x08e5f718
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x10d7ed4
+    eip = 0x10ee7ed5   esp = 0x08e5f720   ebp = 0x08e5f764
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4669a
+    eip = 0x0fe5669b   esp = 0x08e5f76c   ebp = 0x08e5f7ac
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x465f1
+    eip = 0x0fe565f2   esp = 0x08e5f7b4   ebp = 0x08e5f7d0
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x461ca
+    eip = 0x0fe561cb   esp = 0x08e5f7d8   ebp = 0x08e5f7fc
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x08e5f804   ebp = 0x08e5f820
+    Found by: previous frame's frame pointer
+ 8  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x08e5f828   ebp = 0x08e5f82c
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x08e5f834   ebp = 0x08e5f86c
+    Found by: previous frame's frame pointer
+10  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x08e5f874   ebp = 0x08e5f884
+    Found by: previous frame's frame pointer
+
+Thread 18
+ 0  ntdll.dll + 0x470f4
+    eip = 0x76f270f4   esp = 0x0910fa20   ebp = 0x0910fa8c   ebx = 0x00000000
+    esi = 0x00000368   edi = 0x0910fa68   eax = 0x7fffffff   ecx = 0x02839eb0
+    edx = 0x00000000   efl = 0x00000297
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x4c3d2
+    eip = 0x763ac3d3   esp = 0x0910fa94   ebp = 0x0910faa4
+    Found by: previous frame's frame pointer
+ 2  kernel32.dll + 0x4c381
+    eip = 0x763ac382   esp = 0x0910faac   ebp = 0x0910fab8
+    Found by: previous frame's frame pointer
+ 3  chrome_child.dll + 0x10d7ed4
+    eip = 0x10ee7ed5   esp = 0x0910fac0   ebp = 0x0910fb04
+    Found by: previous frame's frame pointer
+ 4  chrome_child.dll + 0x4669a
+    eip = 0x0fe5669b   esp = 0x0910fb0c   ebp = 0x0910fb4c
+    Found by: previous frame's frame pointer
+ 5  chrome_child.dll + 0x465f1
+    eip = 0x0fe565f2   esp = 0x0910fb54   ebp = 0x0910fb74
+    Found by: previous frame's frame pointer
+ 6  chrome_child.dll + 0x46060
+    eip = 0x0fe56061   esp = 0x0910fb7c   ebp = 0x0910fba0
+    Found by: previous frame's frame pointer
+ 7  chrome_child.dll + 0x10d7cd8
+    eip = 0x10ee7cd9   esp = 0x0910fba8   ebp = 0x0910fbc4
+    Found by: previous frame's frame pointer
+ 8  kernel32.dll + 0x4ee1b
+    eip = 0x763aee1c   esp = 0x0910fbcc   ebp = 0x0910fbd0
+    Found by: previous frame's frame pointer
+ 9  ntdll.dll + 0x637ea
+    eip = 0x76f437eb   esp = 0x0910fbd8   ebp = 0x0910fc10
+    Found by: previous frame's frame pointer
+10  ntdll.dll + 0x637bd
+    eip = 0x76f437be   esp = 0x0910fc18   ebp = 0x0910fc28
+    Found by: previous frame's frame pointer
+
+Loaded modules:
+0x00b10000 - 0x00c78fff  chrome.exe  64.0.3282.186  (main)
+0x0fe10000 - 0x13b13fff  chrome_child.dll  64.0.3282.186
+0x5edb0000 - 0x5eebafff  DWrite.dll  6.1.7601.18245
+0x64030000 - 0x640a5fff  chrome_elf.dll  64.0.3282.186
+0x648c0000 - 0x64942fff  dxgi.dll  6.1.7601.17514
+0x67ef0000 - 0x67fdafff  dbghelp.dll  6.1.7601.17514
+0x6ab90000 - 0x6abdefff  webio.dll  6.1.7601.17725
+0x6abe0000 - 0x6ac37fff  WINHTTP.dll  6.1.7601.17514
+0x72760000 - 0x72791fff  WINMM.dll  6.1.7601.17514
+0x72e30000 - 0x72e42fff  dwmapi.dll  6.1.7600.16385
+0x73170000 - 0x73176fff  WINNSI.DLL  6.1.7600.16385
+0x73310000 - 0x7332bfff  IPHLPAPI.DLL  6.1.7601.17514
+0x733a0000 - 0x733f0fff  WINSPOOL.DRV  6.1.7601.17514
+0x73b20000 - 0x73cbdfff  COMCTL32.dll  6.10.7601.17514
+0x74010000 - 0x74026fff  USERENV.dll  6.1.7601.17514
+0x74870000 - 0x74877fff  Secur32.dll  6.1.7601.18812
+0x748c0000 - 0x748dafff  SSPICLI.DLL  6.1.7601.18812
+0x74930000 - 0x7493bfff  cryptbase.dll  6.1.7600.16385
+0x74940000 - 0x74980fff  PicaWtsHook.dll  7.9.0.54
+0x74990000 - 0x749b6fff  cxinjime.dll  7.9.0.45
+0x74a10000 - 0x74a7ffff  twnhook.dll  7.9.0.47
+0x74a80000 - 0x74ba3fff  SCardHook.dll  7.9.0.54
+0x74bb0000 - 0x74be1fff  ShellHook.dll  7.9.0.54
+0x74e40000 - 0x74e48fff  VERSION.dll  6.1.7600.16385
+0x74f10000 - 0x74f3efff  picaFullScreenHookX86.dll  7.9.0.48
+0x74fa0000 - 0x74feffff  MfApHook.dll  7.9.0.10009
+0x75030000 - 0x7503afff  profapi.dll  6.1.7600.16385
+0x750a0000 - 0x750abfff  MSASN1.dll  6.1.7601.17514
+0x750b0000 - 0x750fafff  KERNELBASE.dll  6.1.7601.18229
+0x75120000 - 0x7514dfff  WINTRUST.dll  6.1.7601.18205
+0x75210000 - 0x7532ffff  CRYPT32.dll  6.1.7601.18277
+0x75330000 - 0x75f79fff  SHELL32.dll  6.1.7601.18222
+0x75f80000 - 0x75f85fff  NSI.dll  6.1.7600.16385
+0x75f90000 - 0x7618efff  iertutil.dll  8.0.7601.18404
+0x761c0000 - 0x76261fff  RPCRT4.dll  6.1.7601.18205
+0x76270000 - 0x76338fff  USER32.dll  6.1.7601.17514
+0x76340000 - 0x7635efff  IMM32.DLL  6.1.7601.17514
+0x76360000 - 0x76433fff  kernel32.dll  6.1.7601.18409
+0x76440000 - 0x76474fff  WS2_32.dll  6.1.7601.17514
+0x76480000 - 0x764fafff  COMDLG32.dll  6.1.7601.17514
+0x766a0000 - 0x76794fff  WININET.dll  8.0.7601.18404
+0x767a0000 - 0x767f6fff  SHLWAPI.dll  6.1.7601.17514
+0x76860000 - 0x769bbfff  ole32.dll  6.1.7601.17514
+0x769c0000 - 0x76a4efff  OLEAUT32.dll  6.1.7601.17676
+0x76a50000 - 0x76afbfff  msvcrt.dll  7.0.7601.17744
+0x76b90000 - 0x76c2ffff  ADVAPI32.DLL  6.1.7601.17514
+0x76c30000 - 0x76cfbfff  MSCTF.dll  6.1.7600.16385
+0x76d00000 - 0x76d9cfff  USP10.dll  1.626.7601.17514
+0x76da0000 - 0x76ed6fff  urlmon.dll  8.0.7601.18404
+0x76ee0000 - 0x7701bfff  ntdll.dll  6.1.7601.18205
+0x77020000 - 0x77038fff  sechost.dll  6.1.7600.16385
+0x77040000 - 0x77049fff  LPK.dll  6.1.7601.18177
+0x77050000 - 0x77054fff  PSAPI.DLL  6.1.7600.16385
+0x77060000 - 0x770adfff  GDI32.dll  6.1.7601.18275
